@@ -34,7 +34,7 @@ xtrue = xtrue/mm2HU;
 xtrue_msk = xtrue(mask_roi);  
 %load initial EP image: xrlalm
 epbt = 13;
-load(['pwls_ep/1e4_xrlalm_l2b' num2str(epbt) '_iter100_os12.mat']);
+load(['data/pwls_ep/1e4_xrlalm_l2b' num2str(epbt) '_iter100_os12.mat']);
 % im('mid3','notick', permute(xrlalm(:,:,17:80),[2 1 3]),[800,1200]),cbar;drawnow
 xrlalm = xrlalm/mm2HU;
 xrla_msk = xrlalm(ig.mask); 

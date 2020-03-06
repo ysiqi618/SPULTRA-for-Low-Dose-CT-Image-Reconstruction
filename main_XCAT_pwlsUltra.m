@@ -13,7 +13,7 @@ mm2HU = 1000/0.02;
 I0 = 1e4; % photon intensity
 epbt = 13; % beta of EP 2^epbt
 folder = 'pwls_ultra/xcat/1e4';
-load(['pwls_ep/1e4_xrlalm_l2b' num2str(epbt) '_iter100_os12.mat']);
+load(['data/pwls_ep/1e4_xrlalm_l2b' num2str(epbt) '_iter100_os12.mat']);
 xrlalm = xrlalm/mm2HU;
 ImgSiz = [ig.nx ig.ny ig.nz]; % image size
 PatSiz = [8 8 8];         % patch size

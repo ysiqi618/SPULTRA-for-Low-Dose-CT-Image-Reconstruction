@@ -5,7 +5,7 @@ addpath(genpath('toolbox'));
 
 
 %% generate noisy sinogram and statistical weighting
-I0 = 2e3;
+I0 = 1e4;
 down = 1;% downsample rate
 cg = ct_geom('ge2'); 
 %  cg.na = 246; % sparse view
