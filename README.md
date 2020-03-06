@@ -7,7 +7,7 @@ Arxiv: https://arxiv.org/abs/1808.08791
 
 # Data:
 
-We provide a pwls_ep reconstruction image with I0 = 1e4 for initializing the proposed method under the "data" folder. To generate the corresponding low-dose data, on can use the code "axial_proj_data_maker.m" with the provided XCAT phantom data "xtrue_crop17-80.mat".
+We provide a pwls_ep reconstruction image with I0 = 1e4 for initializing the proposed method under the "data" folder. The code "axial_proj_data_maker.m" is for generating low-dose data with the provided XCAT phantom data "xtrue_crop17-80.mat".
 
 The pre-learned transform is in the "transform_ost" folder. One can reproduce the pre-learned 3D transform using the code "OCTOBOS_LearnTransform3D.m".
 
